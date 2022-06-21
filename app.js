@@ -25,4 +25,4 @@ function findFibonacci(nth) {
 }
 
 
-console.log(findFibonacci(10));
+console.log(findFibonacci(10)); //finds the 10th number in the finbonacci sequence. Starts at 0. 
