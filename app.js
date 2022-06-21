@@ -14,13 +14,13 @@ F(n) = F(n-1) + F(n-2)
 function findFibonacci(nth) {
     
     if (nth === 0)
-        return false;
+        return 0; //base case
     
-    if (nth === 2) 
-        return false
+    if (nth === 1) 
+        return 1  //base case
         
     
-    return findFibonacci(nth - 1) + findFibonacci(nth - 2);
+    return findFibonacci(nth - 1) + findFibonacci(nth - 2);  //recursive case
 
 }
 
