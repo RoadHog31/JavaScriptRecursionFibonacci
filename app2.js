@@ -27,3 +27,10 @@ function countDown(number) {
 
 countDown(10);
 
+// One practical use case of recursion is to read the contents of a directory recursively where the directory can contain other directories.
+
+// Recursion sometimes makes good neat but has some downsides on memory.
+// Only use recursion when necessary.
+
+
+
